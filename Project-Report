@@ -1,0 +1,154 @@
+###PROJECT REPORT
+
+##College Event Management System
+
+#1. Introduction
+The College Event Management System is a Java based project that helps in managing information regarding basic college events. The user can perform operations such as adding new events, displaying all events and searching for a specific event.
+The project has been developed in a simple console-based system so that it is easily comprehensible.
+
+#2. Problem Statement
+It becomes very difficult to manage event information manually especially when there are many events. It becomes very difficult to manage event name, venue, date and capacity.
+
+In this project, an easy way has been provided to store and manage event information with the help of a Java based program.
+
+#3. Objectives
+The objectives of this project are as follows:
+
+Add new college events.
+Display all events.
+Search for an event.
+Store information about events while executing the program.
+Practice basic programming concepts in Java.
+
+#4. Technologies Used
+Programming Language: Java
+Data Structure: ArrayList
+Input: Scanner
+Platform: Java JDK
+Interface: Command Line / Console
+
+#5. Features
+Following features are provided in the project:
+Add Event
+User can enter event ID, event name, venue, date and capacity.
+View Events
+User can view details of all the events entered.
+Search Event
+User can search for any event using event name.
+Exit
+
+User can exit from the program using Exit command.
+
+#6. Structure of the Project
+College-Event-Management-System
+ Main.java
+ Event.java
+ EventManager.java
+ README.md
+
+Main.java:
+Contains main function, menu and user input.
+
+Event.java:
+Provides information about the event.
+
+EventManager.java:
+Performs operations such as add event, view events, and search event.
+
+#7. Java Concepts Used
+
+Following Java concepts are used in the project:
+
+Classes and objects
+Constructors
+Encapsulation
+Methods
+ArrayList
+Scanner
+Conditionals statements
+Loops
+Switch statement
+
+#8. Operation of the Project
+
+On launching the program, the menu appears.
+
+College Event Management
+
+1. Add Event
+2. View Events
+3. Search Event
+4. Exit
+
+The user selects an option.
+
+For instance, when Add Event option is selected, the program prompts to enter:
+
+Event ID
+Event Name
+Venue
+Date
+Capacity
+
+The entered event will be saved in the ArrayList.
+
+On selecting View Events option, the saved events are shown on the screen.
+
+Selecting Search Event will make the program look for event names and display the matched event.
+
+#9. Sample Output
+College Event Management
+  1. Add Event
+  2. View Events
+  3. Search Event
+  4. Exit
+
+Enter your choice: 1
+
+Enter event ID: 101
+Enter event name: Hackathon
+Enter venue: AB2
+Enter date: 20-09-2026
+Enter capacity: 50
+
+Event added successfully.
+
+Displaying the event details:
+
+Enter your choice: 2
+
+Event ID: 101
+Event Name: Hackathon
+Venue: AB2
+Date: 20-09-2026
+Capacity: 50
+
+#10. Benefits
+Easy to use.
+Simple to understand.
+Helps in avoiding manual event management.
+Offers fast event search.
+Based on basic concepts of Java.
+Applicable for small college event management system.
+
+#11. Limitations
+The application runs via the console.
+Data is stored while the application is running.
+Data is lost once the application is closed.
+It does not have user login at the moment.
+There is no permanent database at the moment.
+
+#12. Future Scope
+The application can be enhanced in the future by incorporating the following features:
+
+Participant registration.
+Event deletion and modification.
+Login feature.
+Database storage.
+GUI.
+Online registration of events.
+
+#13. Conclusion
+College Event Management System is an easy Java project to assist in managing events' data. The application offers functionality to add, display and search events.
+
+The application has been useful in learning different Java programming ideas including class, object, constructor, method, ArrayList, looping and user input via Scanner.
