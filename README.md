@@ -48,6 +48,10 @@ Running the program
 
 java Main
 
+## Testing
+
+The College Event Management System can be tested by running the Java program and looking at each choice in the menu. First,. Run Main.java together with Event.java and EventManager.java. Choose Option 1 – Add Event and type in real event information like ID, event name, place, date and number of people allowed. After that choose Option 2 – View Events to make sure the event that was added shows up properly. Then choose Option 3 – Search Event and type, in a name that's already there to see if the right details appear. Also try searching with a name that's not there to check if the message "Event not found." comes up. Add events and look at them to ensure the ArrayList holds them correctly. At the end choose Option 4 – Exit and check that the program ends correctly.
+
 ## How it works
 
 The program displays a menu when run.
