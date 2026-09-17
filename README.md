@@ -15,6 +15,9 @@ and find an event.
 - Display events
 - Find an event
 - Exit the application
+  
+## Objective
+The main objective of the College Event Management System is to develop a simple Java-based application for managing basic college event information in an organized manner. The system aims to make it easy for users to add, view, and search events along with details such as event ID, name, venue, date, and capacity. The project also aims to demonstrate the practical use of Java Object-Oriented Programming concepts, including classes, objects, constructors, encapsulation, methods, ArrayList, loops, and switch-case.
 
 ## Files
 
